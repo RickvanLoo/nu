@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-  json, err := nu.Parse("http://www.nu.nl/rss/Algemeen")
+	json, err := nu.JSON("http://www.nu.nl/rss/Algemeen")
   	if err != nil {
   		fmt.Println(err)
   		return
