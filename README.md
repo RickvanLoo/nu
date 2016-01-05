@@ -19,6 +19,6 @@ func main() {
   		return
   	}
   
-  	fmt.Fprint(w, string(json))
+	fmt.Println(string(json))
 }
 ```
